@@ -17,12 +17,21 @@ body {
     font-family: 'Public Sans', sans-serif;
     color:$lightGrayishBlue;
     font-weight: 300;
+    &.noscroll{
+        overflow: hidden;
+    }
 }
 
 a,a:visited,a:hover{
     text-decoration:none;
     
 }
+//Spacing
+.container{
+    padding: 0px 1.5rem;
+}
+
+
 //FlexBox Styles
 .flex{
     display:flex;
